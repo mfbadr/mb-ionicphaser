@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="mario" tilewidth="16" tileheight="16">
+  <image source="super_mario.png" width="176" height="64"/>
+ </tileset>
+ <tileset firstgid="45" name="coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="192" height="32"/>
+ </tileset>
+ <layer name="Background" width="50" height="50" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKH7/qWXY6DgqqmqqqqqqqqqqurzBwHpCcU=
+  </data>
+ </layer>
+ <layer name="Clouds" width="50" height="50" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1GELwBAQgGGZbP//F89avmCHkh29T90HkU53x5h1+BDnR2BPNsQhhPsvtSw3V1hHUu8+cU3LOpfmdhXWQMpW9rTObcpX9rTOrSYr1VtCvfcU+7P3vLZ+jv3ZSus7eu3yDv6X18h6lu6aZWQ9S3dJmAkAAAAAAAAAANrcMKcDKQ==
+  </data>
+ </layer>
+ <layer name="Ground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmtkKgCAURP2OHkTa/v8TswchJM1ccukcmIdibLxqZZAQ/2EOFAAAAMAJe4Z0GDsAgL7hG7oMtcbSl9HT3LbctzdQR1tQR1uMUkcNeF/DE6XXwyjrjTq+vaYvi+fY2EyZfbH+FKTWoqUy+WL9KZgsc7+5MkN9sX4Xq9amtXvOSXG/B1JWO5/Pzojx2/26Hof+q4AQQiiPDr62P68=
+  </data>
+ </layer>
+ <objectgroup name="Coins" visible="0">
+  <properties>
+   <property name="body.bounce.y" value="1"/>
+   <property name="body.gravity.y" value="100"/>
+  </properties>
+  <object gid="45" x="112" y="188">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="172" y="310">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="296" y="148">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="388" y="272">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="426" y="154">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="104" y="614">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="238" y="456">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="388" y="632">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="532" y="458">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="366" y="496">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="592" y="606">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="590" y="386">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="506" y="292">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="604" y="138">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="780" y="278">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="624" y="288">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="744" y="614">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="738" y="474">
+   <properties>
+    <property name="body.bounce.y" value="1"/>
+    <property name="body.gravity.y" value="150"/>
+   </properties>
+  </object>
+  <object gid="45" x="196" y="88"/>
+  <object gid="45" x="236" y="92"/>
+  <object gid="45" x="478" y="234"/>
+  <object gid="45" x="558" y="68"/>
+  <object gid="45" x="768" y="394"/>
+  <object gid="45" x="276" y="466"/>
+  <object gid="45" x="158" y="590"/>
+  <object gid="45" x="412" y="476"/>
+  <object gid="45" x="244" y="334"/>
+  <object gid="45" x="326" y="320"/>
+  <object gid="45" x="284" y="272"/>
+  <object gid="45" x="530" y="114"/>
+  <object gid="45" x="696" y="150"/>
+  <object gid="45" x="704" y="238"/>
+  <object gid="45" x="652" y="360"/>
+  <object gid="45" x="452" y="368"/>
+  <object gid="45" x="350" y="414"/>
+  <object gid="45" x="204" y="366"/>
+  <object gid="45" x="70" y="374"/>
+ </objectgroup>
+</map>
